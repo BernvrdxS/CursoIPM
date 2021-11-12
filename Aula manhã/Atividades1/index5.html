@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+            <tr>
+                <th colspan="2">
+                    <h1>Formulário pizzaria</h1>
+                </th>
+                <fieldset>
+                    <legend>Cliente</legend>
+                    <table>
+            </tr>
+            <tr>
+                <td><label for="nome">Nome</label></td>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr>
+            <tr>
+                <td><label for="sobrenome">Sobrenone</label></td>
+                <td><input type="text" name="sobrenome" id="sobrenome"></td>
+            </tr>
+            <tr>
+                <td><label for="endereco">Endereço</label></td>
+                <td><input type="text" name="endereco" id="endereco"></td>
+            </tr>
+            <tr>
+                <td><label for="numEnd">Número do endereço</label></td>
+                <td><input type="number" name="numEnd" id="numEnd" minlength="0" maxlength="9999"></td>
+            </tr>
+            <tr>
+                <td><label for="bairro">Bairro</label></td>
+                <td><input type="text" name="bairro" id="bairro"></td>
+            </tr>
+            <tr>
+                <td><label for="cidade">Cidade</label></td>
+                <td><input type="text" name="cidade" id="cidade"></td>
+            </tr>
+            <tr>
+                <td><label for="telefone">Telefone</label></td>
+                <td><input type="number" name="telefone" id="telefone"></td>
+            </tr>
+            <tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Pizza</legend>
+        <table>
+            <tr>
+                <td><label for="tamanho">Tamanho da pizza</label></td>
+                <td><select name="tamanho" id="Tamanho">
+                        <option value="" disabled selected hidden>Escolha o tamanho da pizza</option>
+                        <option value="1">Pequena</option>
+                        <option value="2">Média</option>
+                        <option value="3">Grande</option>
+                        <option value="4">Gigante</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="sabor">Sabores da pizza</label></td>
+                <td><select name="sabor" id="sabor" multiple>
+                        <option value="" disabled selected hidden>Escolha os sabores da pizza</option>
+                        <option value="1">4 queijos</option>
+                        <option value="2">Pepperoni</option>
+                        <option value="3">Strogonoff de carne</option>
+                        <option value="4">Mexicana</option>
+                        <option value="5">Calabresa</option>
+                        <option value="6">Chocolate branco</option>
+                        <option value="7">Chocolate preto</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="borda">Borda da pizza</label></td>
+                <td><select name="borda" id="borda" multiple>
+                        <option value="" disabled selected hidden>Escolha a borda da pizza</option>
+                        <option value="1">Requeijão</option>
+                        <option value="2">Chocolate</option>
+                        <option value="3">Sem borda</option>
+            </tr>
+            <tr>
+                <td><label for="observacao">Observação</label></td>
+                <td><textarea name="observacao" id="observacao" cols="30" rows="10" maxlength="100"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Pagamento</legend>
+        <table>
+            <tr>
+                <td><label for="pagamento">Pagamento</label></td>
+                <td><select name="pagamento" id="pagamento">
+                        <option value="" disabled selected hidden>Escolha a forma de pagamento</option>
+                        <option value="1">Dinheiro</option>
+                        <option value="2">Cartão</option>
+                        <option value="3">Cheque</option>
+            </tr>
+            <td colspan="2">
+                <center><button>Enviar pedido</button></center>
+            </td>
+        </table>
+        </fieldset>
+</body>
+
+</html>

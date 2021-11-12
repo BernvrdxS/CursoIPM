@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="2">
+                <h1>Request for White Paper</h1>
+                Please fill out the form below. If you have any questions, please e-mail white-papel@ektron.com.
+                <br>
+                * - required fields
+                <br>
+                <br>
+            </th>
+        </tr>
+        <tr>
+            <td> <label for="nome">*First Name:</label></td>
+            <td><input type="text" name="nome" id="nome"></td>
+        </tr>
+        <tr>
+            <td><label for="last name">*Last Name:</label> </td>
+            <td><input type="text" name="last name" id="last name"> </td>
+        </tr>
+        <tr>
+            <td><label for="company">Company Name:</label></td>
+            <td><input type="text" name="company" id="company"></td>
+        </tr>
+        </tr>
+        <td> <label for="website">Company/Personal Website:</label> </td>
+        <td><input type="url" name="website"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email*</label></td>
+            <td><input type="text" name="email" id="email"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Phone</label></td>
+            <td><input type="number" name="phone" id="phone">
+                <label for="ext">Ext</label>
+                <input type="text">
+        </tr>
+        <tr>
+            <td><label for="state">State/Province</label></td>
+            <td><select name="state" id="state">
+                    <option value="" disabled selected hidden>Select for USA or Canada Only</option>
+                    <option value="1">LA</option>
+                    <option value="2">Florida</option>
+                </select></td>
+        </tr>
+        <tr>
+            <label for="Country">*Country</label>
+            <select name="country" id="country">
+                <option value="1">USA</option>
+                <option value="2">Canada</option>
+            </select>
+        </tr>
+        <tr>
+            <td><label for="comments">Comments: </label></td>
+            <td><textarea name="comments" id="comments" cols="30" rows="10"></textarea></td>
+        </tr>
+        <td colspan="2">
+            <center><button>Request White Paper</button></center>
+        </td>
+        </tr>
+    </table>
+</body>
+
+</html>
