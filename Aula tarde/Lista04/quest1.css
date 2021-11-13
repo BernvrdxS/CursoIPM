@@ -1,0 +1,16 @@
+p {
+    width: 150px;
+    height: 100px;
+    color: white;
+    font-family: Arial;
+    background-color: green;
+    border-top-width: 2px;
+    border-top-color: blue;
+    border-top-style: dashed;
+    border-left-width:2px;
+    border-left-color: yellow;
+    border-left-style: double;
+    border-right: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}

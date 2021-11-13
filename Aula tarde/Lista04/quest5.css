@@ -1,0 +1,48 @@
+.img {
+position: absolute;
+width: 150px;
+height: 150px;
+background-size: 50%;
+background-repeat: no-repeat;
+margin-left: 22%;
+}
+
+.img1 {
+position: absolute;
+width: 150px;
+height: 150px;
+background-size: 50%;
+background-repeat: no-repeat;
+margin-left: 30%;
+margin-top: 7%;
+}
+
+.img2 {
+position: absolute;
+width: 150px;
+height: 150px;
+background-size: 50%;
+background-repeat: no-repeat;
+margin-left: 43%;
+margin-top: 20%;
+}
+
+.img3 {
+position: absolute;
+width: 150px;
+height: 150px;
+background-size: 50%;
+background-repeat: no-repeat;
+margin-left: 20%;
+margin-top: 27.5%;
+}
+
+.img4 {
+position: absolute;
+width: 150px;
+height: 150px;
+background-size: 50%;
+background-repeat: no-repeat;
+margin-left: 51%;
+margin-top: 26%;
+}
